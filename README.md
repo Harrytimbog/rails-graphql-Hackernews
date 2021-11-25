@@ -1,24 +1,50 @@
-# README
+# GraphQL with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Building a Hackernews clone with implementation of graphQl architecture
 
-Things you may want to cover:
+## Run Locally   
 
-* Ruby version
+Clone the project
 
-* System dependencies
+``` console
+git clone git@github.com:Harrytimbog/rails-graphql-Hackernews.git
+```
 
-* Configuration
+Go to the project directory
 
-* Database creation
+``` console
+cd rails-graphql-Hackernews
+```
 
-* Database initialization
+Install dependencies
 
-* How to run the test suite
+``` console
+npm install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Install gems
 
-* Deployment instructions
+``` console
+bundle install
+```
 
-* ...
+Create, Migrate and Seed Database
+
+``` console
+rails db:create db:migrate
+```
+
+Start Server
+
+``` console
+rails s
+```
+[Run your queries](http://localhost:3000/graphiql)
+
+
+## Feedback  
+
+Arigbede Timilehin Emmanuel - @Harrytimbog - harriemannie@gmail.com
+
+Project Link: git@github.com:Harrytimbog/rails-graphql-Hackernews.git
+
