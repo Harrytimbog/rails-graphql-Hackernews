@@ -16,6 +16,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'graphql', '1.11.6'
+gem 'bcrypt', '~> 3.1.13'
+gem 'search_object_graphql', '0.3.1'
 
 
 # Reduces boot times through caching; required in config/boot.rb
@@ -39,4 +41,3 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'graphiql-rails', '1.7.0', group: :development
-gem 'bcrypt', '~> 3.1.13'
